@@ -1,0 +1,96 @@
+[2022-11-12T05:43:21.335Z][INFO]-The current core is using the AWS IoT certificates with fingerprint.	{"fingerprint": "442f8191f1b7015b41d1547eb77577bff2ec6cde59acf8989579b1e48b8c1196"}
+[2022-11-12T05:43:21.335Z][INFO]-Connecting with MQTT.	{"endpoint": "aiz3ikhw59kmt-ats.iot.us-west-2.amazonaws.com:8883", "clientId": "MyGreenGrass0"}
+[2022-11-12T05:43:21.408Z][INFO]-MQTT connection successful.	{"attemptId": "vkuZ", "clientId": "MyGreenGrass0"}
+[2022-11-12T05:43:21.408Z][INFO]-MQTT connection established.	{"endpoint": "aiz3ikhw59kmt-ats.iot.us-west-2.amazonaws.com:8883", "clientId": "MyGreenGrass0"}
+[2022-11-12T05:43:21.408Z][INFO]-MQTT connection connected. Start subscribing.	{"clientId": "MyGreenGrass0", "count": 1}
+[2022-11-12T05:43:21.408Z][INFO]-Daemon connected to cloud.
+[2022-11-12T05:43:21.408Z][INFO]-Start subscribing.	{"numOfTopics": 5, "clientId": "MyGreenGrass0"}
+[2022-11-12T05:43:21.408Z][INFO]-Trying to subscribe to topic $aws/things/MyGreenGrass0-gcf/shadow/get/accepted
+[2022-11-12T05:43:21.453Z][INFO]-Trying to subscribe to topic $aws/things/MyGreenGrass0-gcf/shadow/update/delta
+[2022-11-12T05:43:21.47Z][INFO]-Updating with update request.	{"aggregationIntervalSeconds": 3600, "publishIntervalSeconds": 86400}
+[2022-11-12T05:43:21.47Z][INFO]-Config update is in pending state.	{"aggregationIntervalSeconds": 3600, "publishIntervalSeconds": 86400}
+[2022-11-12T05:43:21.47Z][INFO]-Start metrics config updating.	{"aggregationIntervalSeconds": 3600, "publishIntervalSeconds": 86400}
+[2022-11-12T05:43:21.47Z][INFO]-Metric config update succeeded.
+[2022-11-12T05:43:21.47Z][INFO]-Received signal to terminate upload schedule
+[2022-11-12T05:43:21.47Z][INFO]-Received signal to terminate aggregation schedule
+[2022-11-12T05:43:21.476Z][INFO]-Update metric config reported to the cloud.
+[2022-11-12T05:43:21.52Z][INFO]-Trying to subscribe to topic $aws/things/MyGreenGrass0-gda/shadow/get/accepted
+[2022-11-12T05:43:21.57Z][INFO]-Trying to subscribe to topic $aws/things/MyGreenGrass0-gda/shadow/update/delta
+[2022-11-12T05:43:21.613Z][INFO]-Trying to subscribe to topic $aws/things/MyGreenGrass0-gcf/shadow/get/rejected
+[2022-11-12T05:43:21.661Z][INFO]-All topics subscribed.	{"clientId": "MyGreenGrass0"}
+[2022-11-12T06:00:27.742Z][INFO]-Daemon received signal: terminated.
+[2022-11-12T06:00:27.742Z][INFO]-Shutting down daemon.
+[2022-11-12T06:00:27.742Z][INFO]-Stopping all workers.
+[2022-11-12T06:00:27.742Z][INFO]-Lifecycle manager is stopped.
+[2022-11-12T06:00:27.743Z][INFO]-IPC server stopped.
+[2022-11-14T19:25:37.896Z][INFO]-===========================================
+[2022-11-14T19:25:37.896Z][INFO]-Greengrass Version: 1.11.6-RC2
+[2022-11-14T19:25:37.896Z][INFO]-Greengrass Root: /greengrass
+[2022-11-14T19:25:37.896Z][INFO]-Greengrass Write Directory: /greengrass/ggc
+[2022-11-14T19:25:37.896Z][INFO]-Group File Directory: /greengrass/ggc/deployment/group
+[2022-11-14T19:25:37.896Z][INFO]-Default Lambda UID: 995
+[2022-11-14T19:25:37.897Z][INFO]-Default Lambda GID: 992
+[2022-11-14T19:25:37.897Z][INFO]-===========================================
+[2022-11-14T19:25:37.897Z][INFO]-The current core is using the AWS IoT certificates with fingerprint.	{"fingerprint": "442f8191f1b7015b41d1547eb77577bff2ec6cde59acf8989579b1e48b8c1196"}
+[2022-11-14T19:25:37.897Z][INFO]-Will persist worker process info.	{"dir": "/greengrass/ggc/packages/1.11.6/var/worker/processes"}
+[2022-11-14T19:25:37.897Z][INFO]-Will persist worker process info.	{"dir": "/greengrass/ggc/packages/1.11.6/var/worker/processes"}
+[2022-11-14T19:25:37.897Z][INFO]-No proxy URL found.
+[2022-11-14T19:25:37.898Z][INFO]-No proxy URL found.
+[2022-11-14T19:25:37.899Z][INFO]-The current core is using the AWS IoT certificates with fingerprint.	{"fingerprint": "442f8191f1b7015b41d1547eb77577bff2ec6cde59acf8989579b1e48b8c1196"}
+[2022-11-14T19:25:37.899Z][INFO]-Connecting with MQTT.	{"endpoint": "aiz3ikhw59kmt-ats.iot.us-west-2.amazonaws.com:8883", "clientId": "MyGreenGrass0"}
+[2022-11-14T19:25:37.976Z][INFO]-MQTT connection successful.	{"attemptId": "tpGh", "clientId": "MyGreenGrass0"}
+[2022-11-14T19:25:37.976Z][INFO]-MQTT connection established.	{"endpoint": "aiz3ikhw59kmt-ats.iot.us-west-2.amazonaws.com:8883", "clientId": "MyGreenGrass0"}
+[2022-11-14T19:25:37.976Z][INFO]-MQTT connection connected. Start subscribing.	{"clientId": "MyGreenGrass0", "count": 1}
+[2022-11-14T19:25:37.976Z][INFO]-Daemon connected to cloud.
+[2022-11-14T19:25:37.976Z][INFO]-Start subscribing.	{"numOfTopics": 5, "clientId": "MyGreenGrass0"}
+[2022-11-14T19:25:37.976Z][INFO]-Trying to subscribe to topic $aws/things/MyGreenGrass0-gda/shadow/get/accepted
+[2022-11-14T19:25:38.025Z][INFO]-Trying to subscribe to topic $aws/things/MyGreenGrass0-gda/shadow/update/delta
+[2022-11-14T19:25:38.074Z][INFO]-Trying to subscribe to topic $aws/things/MyGreenGrass0-gcf/shadow/get/rejected
+[2022-11-14T19:25:38.317Z][INFO]-Trying to subscribe to topic $aws/things/MyGreenGrass0-gcf/shadow/get/accepted
+[2022-11-14T19:25:38.385Z][INFO]-Trying to subscribe to topic $aws/things/MyGreenGrass0-gcf/shadow/update/delta
+[2022-11-14T19:25:38.407Z][INFO]-Updating with update request.	{"aggregationIntervalSeconds": 3600, "publishIntervalSeconds": 86400}
+[2022-11-14T19:25:38.407Z][INFO]-Config update is in pending state.	{"aggregationIntervalSeconds": 3600, "publishIntervalSeconds": 86400}
+[2022-11-14T19:25:38.407Z][INFO]-Start metrics config updating.	{"aggregationIntervalSeconds": 3600, "publishIntervalSeconds": 86400}
+[2022-11-14T19:25:38.407Z][INFO]-Metric config update succeeded.
+[2022-11-14T19:25:38.407Z][INFO]-Received signal to terminate upload schedule
+[2022-11-14T19:25:38.407Z][INFO]-Received signal to terminate aggregation schedule
+[2022-11-14T19:25:38.411Z][INFO]-Update metric config reported to the cloud.
+[2022-11-14T19:25:38.428Z][INFO]-All topics subscribed.	{"clientId": "MyGreenGrass0"}
+[2022-11-14T19:28:37.071Z][INFO]-Daemon received signal: terminated.
+[2022-11-14T19:28:37.071Z][INFO]-Shutting down daemon.
+[2022-11-14T19:28:37.071Z][INFO]-Stopping all workers.
+[2022-11-14T19:28:37.071Z][INFO]-Lifecycle manager is stopped.
+[2022-11-14T19:28:37.071Z][INFO]-IPC server stopped.
+[2022-11-14T19:28:38.097Z][INFO]-===========================================
+[2022-11-14T19:28:38.097Z][INFO]-Greengrass Version: 1.11.6-RC2
+[2022-11-14T19:28:38.097Z][INFO]-Greengrass Root: /greengrass
+[2022-11-14T19:28:38.097Z][INFO]-Greengrass Write Directory: /greengrass/ggc
+[2022-11-14T19:28:38.097Z][INFO]-Group File Directory: /greengrass/ggc/deployment/group
+[2022-11-14T19:28:38.097Z][INFO]-Default Lambda UID: 995
+[2022-11-14T19:28:38.097Z][INFO]-Default Lambda GID: 992
+[2022-11-14T19:28:38.098Z][INFO]-===========================================
+[2022-11-14T19:28:38.098Z][INFO]-The current core is using the AWS IoT certificates with fingerprint.	{"fingerprint": "442f8191f1b7015b41d1547eb77577bff2ec6cde59acf8989579b1e48b8c1196"}
+[2022-11-14T19:28:38.098Z][INFO]-Will persist worker process info.	{"dir": "/greengrass/ggc/packages/1.11.6/var/worker/processes"}
+[2022-11-14T19:28:38.098Z][INFO]-Will persist worker process info.	{"dir": "/greengrass/ggc/packages/1.11.6/var/worker/processes"}
+[2022-11-14T19:28:38.098Z][INFO]-No proxy URL found.
+[2022-11-14T19:28:38.098Z][INFO]-No proxy URL found.
+[2022-11-14T19:28:38.1Z][INFO]-The current core is using the AWS IoT certificates with fingerprint.	{"fingerprint": "442f8191f1b7015b41d1547eb77577bff2ec6cde59acf8989579b1e48b8c1196"}
+[2022-11-14T19:28:38.1Z][INFO]-Connecting with MQTT.	{"endpoint": "aiz3ikhw59kmt-ats.iot.us-west-2.amazonaws.com:8883", "clientId": "MyGreenGrass0"}
+[2022-11-14T19:28:38.178Z][INFO]-MQTT connection successful.	{"attemptId": "IyNl", "clientId": "MyGreenGrass0"}
+[2022-11-14T19:28:38.178Z][INFO]-MQTT connection established.	{"endpoint": "aiz3ikhw59kmt-ats.iot.us-west-2.amazonaws.com:8883", "clientId": "MyGreenGrass0"}
+[2022-11-14T19:28:38.178Z][INFO]-MQTT connection connected. Start subscribing.	{"clientId": "MyGreenGrass0", "count": 1}
+[2022-11-14T19:28:38.178Z][INFO]-Daemon connected to cloud.
+[2022-11-14T19:28:38.178Z][INFO]-Start subscribing.	{"numOfTopics": 5, "clientId": "MyGreenGrass0"}
+[2022-11-14T19:28:38.178Z][INFO]-Trying to subscribe to topic $aws/things/MyGreenGrass0-gcf/shadow/get/rejected
+[2022-11-14T19:28:38.224Z][INFO]-Trying to subscribe to topic $aws/things/MyGreenGrass0-gcf/shadow/get/accepted
+[2022-11-14T19:28:38.274Z][INFO]-Trying to subscribe to topic $aws/things/MyGreenGrass0-gcf/shadow/update/delta
+[2022-11-14T19:28:38.289Z][INFO]-Updating with update request.	{"aggregationIntervalSeconds": 3600, "publishIntervalSeconds": 86400}
+[2022-11-14T19:28:38.289Z][INFO]-Config update is in pending state.	{"aggregationIntervalSeconds": 3600, "publishIntervalSeconds": 86400}
+[2022-11-14T19:28:38.289Z][INFO]-Start metrics config updating.	{"aggregationIntervalSeconds": 3600, "publishIntervalSeconds": 86400}
+[2022-11-14T19:28:38.289Z][INFO]-Metric config update succeeded.
+[2022-11-14T19:28:38.289Z][INFO]-Received signal to terminate upload schedule
+[2022-11-14T19:28:38.289Z][INFO]-Received signal to terminate aggregation schedule
+[2022-11-14T19:28:38.298Z][INFO]-Update metric config reported to the cloud.
+[2022-11-14T19:28:38.323Z][INFO]-Trying to subscribe to topic $aws/things/MyGreenGrass0-gda/shadow/get/accepted
+[2022-11-14T19:28:38.488Z][INFO]-Trying to subscribe to topic $aws/things/MyGreenGrass0-gda/shadow/update/delta
+[2022-11-14T19:28:38.527Z][INFO]-All topics subscribed.	{"clientId": "MyGreenGrass0"}
